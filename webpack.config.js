@@ -72,7 +72,7 @@ module.exports = {
                 };
 
                 require("fs").writeFileSync(
-                    path.join(__dirname, "../public/dist/", "assets.json"), JSON.stringify(assetData)
+                    path.join(__dirname, "./public/dist/", "assets.json"), JSON.stringify(assetData)
                 );
             });
         }
