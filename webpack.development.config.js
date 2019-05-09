@@ -8,7 +8,7 @@ module.exports = {
         app: [
             "whatwg-fetch",
             "webpack/hot/dev-server",
-            `webpack-dev-server/client?http://dev.lighterpack.com:8080/`,
+            `webpack-dev-server/client?http://localhost:8080/`,
             "./client/css/lighterpack.scss",
             "./client/lighterpack.js"
             ]
